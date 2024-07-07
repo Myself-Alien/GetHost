@@ -1,0 +1,64 @@
+
+.parallax1 {
+	background-size:cover;
+	height:auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url('../images/paper.jpg');
+}
+
+@media (min-width: 651px){
+    .parallax-section-1 { background-image: url('../images/paper.jpg'); }
+}
+
+@media (max-width: 650px) {
+    .parallax-section-1 { background-image: url('../images/paper.jpg'); height: 800px; }
+}
+
+.parallax2 {
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url('../images/bg6.jpg');
+}
+
+@media (min-width: 651px){
+    .parallax-section-1 { background-image: url('../images/bg6.jpg'); }
+}
+
+@media (max-width: 650px) {
+    .parallax-section-1 { background-image: url('../images/bg6.jpg'); height: 500px; }
+}
+
+.parallax3 {
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url('../images/statics.jpg');
+}
+
+@media (min-width: 651px){
+    .parallax-section-1 { background-image: url('../images/statics.jpg'); }
+}
+
+@media (max-width: 650px) {
+    .parallax-section-1 { background-image: url('../images/statics.jpg'); height: 300px; }
+}
+
+
+
+.parallax5 {
+   background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url('../images/lttr_bg.jpg');
+}
+
+@media (min-width: 651px){
+    .parallax-section-1 { background-image: url('../images/lttr_bg.jpg'); }
+}
+
+@media (max-width: 650px) {
+    .parallax-section-1 { background-image: url('../images/lttr_bg.jpg'); height: 300px; }
+}
+

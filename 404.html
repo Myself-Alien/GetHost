@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GETHOST WEB HOSTING || OFFICIAL</title>
+    <!-- Meta Description -->
+    <meta name="description" content="GETHOST WEB HOSTING">
+    <meta name="PRITIMAY" content=" Example : WEB DOMAIN HOSTING COMPANY">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/res.css" rel="stylesheet">
+	<style>
+		.content {
+    max-width: 500px;
+    margin: auto;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.middle > h1
+{
+ font-size:65px;
+ color:#000;
+ font-family:Roboto;
+}
+.demo
+ {
+	color:#fff;
+ }
+	.hero_mm
+	{
+	background-image:url(images/hero.jpg);
+	height:100%;
+	width:100%;
+	background-color:#609FF4;
+ }
+</style>
+</style>
+	</style>
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid hero_mm">
+			<div class="content">
+			<div class="middle">
+    <h1>COMING SOON</h1>
+    <hr class="c_hr_404">
+    <p id="demo" style="font-size:45px; color:#000; font-family:roboto;"></p>
+  </div>
+			</div>
+		</div>
+		<script>
+		// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000); 
+		</script>
+	</body>
+	</html>
+
